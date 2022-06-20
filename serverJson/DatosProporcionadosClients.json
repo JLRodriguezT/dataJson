@@ -1,0 +1,438 @@
+{
+  "responseCode": "OK",
+  "responseMessage": null,
+  "data": {
+    "transactionId": 1655604555192,
+    "data": {
+      "consumptionEntityId": 21676943667,
+      "totalTariff": 199,
+      "totalTariffCurrency": "199 BS",
+      "componentList": [
+        {
+          "entityComponentId": 119265610,
+          "mainEntityComponentId": 119265607,
+          "componentCode": "MV_IDLLAM",
+          "componentDescription": "IDENTIFICADOR DE LLAMADAS MOVIL",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 0,
+          "hasAttribute": 0,
+          "status": "ACTIVE",
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": null,
+          "attributeInstanceList": null,
+          "attributeOfferList": null
+        },
+        {
+          "entityComponentId": 119265613,
+          "mainEntityComponentId": 119265612,
+          "componentCode": "MV_ROI_PRE",
+          "componentDescription": "ROAMING INTERNACIONAL PREPAGO",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 1,
+          "hasAttribute": 0,
+          "status": "ACTIVE",
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": [],
+          "additionalDataOfferList": [
+            {
+              "dataType": "COUNTRY",
+              "dataTypeDescription": "PAIS",
+              "minQuantity": 0,
+              "maxQuantity": 1,
+              "domainData": null,
+              "domainDataList": null
+            }
+          ],
+          "attributeInstanceList": null,
+          "attributeOfferList": null
+        },
+        {
+          "entityComponentId": 119265616,
+          "mainEntityComponentId": 119265607,
+          "componentCode": "MV_SMS_ENT",
+          "componentDescription": "SMS ENTRANTES",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 0,
+          "hasAttribute": 0,
+          "status": "ACTIVE",
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": null,
+          "attributeInstanceList": null,
+          "attributeOfferList": null
+        },
+        {
+          "entityComponentId": 119265617,
+          "mainEntityComponentId": 119265607,
+          "componentCode": "MV_SMS_SAL",
+          "componentDescription": "SMS SALIENTES",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 0,
+          "hasAttribute": 0,
+          "status": "ACTIVE",
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": null,
+          "attributeInstanceList": null,
+          "attributeOfferList": null
+        },
+        {
+          "entityComponentId": 119265614,
+          "mainEntityComponentId": 119265607,
+          "componentCode": "MV_VMS",
+          "componentDescription": "VMS",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 0,
+          "hasAttribute": 0,
+          "status": "ACTIVE",
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": null,
+          "attributeInstanceList": null,
+          "attributeOfferList": null
+        },
+        {
+          "entityComponentId": null,
+          "mainEntityComponentId": null,
+          "componentCode": "APRIMEPRE",
+          "componentDescription": "AMAZON PRIME VIDEO PREPAGO",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 1,
+          "hasAttribute": 1,
+          "status": "INACTIVE",
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": [
+            {
+              "dataType": "EMAILV",
+              "dataTypeDescription": "CORREO ELECTRONICO",
+              "minQuantity": 0,
+              "maxQuantity": 1,
+              "domainData": null,
+              "domainDataList": null
+            }
+          ],
+          "attributeInstanceList": null,
+          "attributeOfferList": [
+            {
+              "attributeCode": "CATEGORY",
+              "attributeDescription": "CATEGORIA",
+              "attributes": [
+                "PREPAGO AMAZON PRIME VIDEO"
+              ]
+            }
+          ]
+        },
+        {
+          "entityComponentId": null,
+          "mainEntityComponentId": null,
+          "componentCode": "MV_APRTYPE",
+          "componentDescription": "TIPO APROBACION",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 0,
+          "hasAttribute": 1,
+          "status": "INACTIVE",
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": null,
+          "attributeInstanceList": null,
+          "attributeOfferList": [
+            {
+              "attributeCode": "CLIENTTYPE",
+              "attributeDescription": "TIPO CLIENTE",
+              "attributes": [
+                "AGR",
+                "VIP"
+              ]
+            }
+          ]
+        },
+        {
+          "entityComponentId": null,
+          "mainEntityComponentId": null,
+          "componentCode": "MV_CREXPS",
+          "componentDescription": "CREDITO WOW",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 0,
+          "hasAttribute": 1,
+          "status": "INACTIVE",
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": null,
+          "attributeInstanceList": null,
+          "attributeOfferList": [
+            {
+              "attributeCode": "CATEGORY",
+              "attributeDescription": "CATEGORIA",
+              "attributes": [
+                "CREDITO SUPER WOW(69)",
+                "CREDITO ULTRA WOW(99)",
+                "CREDITO WOW(29)"
+              ]
+            }
+          ]
+        },
+        {
+          "entityComponentId": null,
+          "mainEntityComponentId": null,
+          "componentCode": "MV_DET_LLA",
+          "componentDescription": "DETALLE DE LLAMADAS",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 0,
+          "hasAttribute": 0,
+          "status": null,
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": null,
+          "attributeInstanceList": null,
+          "attributeOfferList": null
+        },
+        {
+          "entityComponentId": null,
+          "mainEntityComponentId": null,
+          "componentCode": "MV_LTE",
+          "componentDescription": "LTE",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 0,
+          "hasAttribute": 1,
+          "status": "INACTIVE",
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": null,
+          "attributeInstanceList": null,
+          "attributeOfferList": [
+            {
+              "attributeCode": "SPEED_DOWN",
+              "attributeDescription": "VELOCIDAD BAJADA",
+              "attributes": [
+                "100 MBPS"
+              ]
+            },
+            {
+              "attributeCode": "SPEED_UP",
+              "attributeDescription": "VELOCIDAD SUBIDA",
+              "attributes": [
+                "50 MBPS"
+              ]
+            }
+          ]
+        },
+        {
+          "entityComponentId": null,
+          "mainEntityComponentId": null,
+          "componentCode": "MV_MINXPS",
+          "componentDescription": "MINUTOS WOW",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 0,
+          "hasAttribute": 1,
+          "status": "INACTIVE",
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": null,
+          "attributeInstanceList": null,
+          "attributeOfferList": [
+            {
+              "attributeCode": "CATEGORY",
+              "attributeDescription": "CATEGORIA",
+              "attributes": [
+                "MINUTOS SUPER WOW(79)",
+                "MINUTOS ULTRA WOW(149)",
+                "MINUTOS WOW(39)"
+              ]
+            }
+          ]
+        },
+        {
+          "entityComponentId": null,
+          "mainEntityComponentId": null,
+          "componentCode": "MV_ONETILI",
+          "componentDescription": "ON NET ILIMITADO",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 0,
+          "hasAttribute": 0,
+          "status": null,
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": null,
+          "attributeInstanceList": null,
+          "attributeOfferList": null
+        },
+        {
+          "entityComponentId": null,
+          "mainEntityComponentId": null,
+          "componentCode": "MV_ONNET",
+          "componentDescription": "AMIGO VIVA UNIDIRECCIONAL",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 1,
+          "hasAttribute": 1,
+          "status": "INACTIVE",
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": [
+            {
+              "dataType": "BENEF_LINE",
+              "dataTypeDescription": "LINEA BENEFICIADA",
+              "minQuantity": 0,
+              "maxQuantity": 6,
+              "domainData": null,
+              "domainDataList": null
+            }
+          ],
+          "attributeInstanceList": null,
+          "attributeOfferList": []
+        },
+        {
+          "entityComponentId": null,
+          "mainEntityComponentId": null,
+          "componentCode": "MV_PRF_FS",
+          "componentDescription": "ENVIO PREFACTURA FISICA",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 0,
+          "hasAttribute": 0,
+          "status": null,
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": null,
+          "attributeInstanceList": null,
+          "attributeOfferList": null
+        },
+        {
+          "entityComponentId": null,
+          "mainEntityComponentId": null,
+          "componentCode": "MV_PRF_VIR",
+          "componentDescription": "ENVIO PREFACTURA VIRTUAL",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 0,
+          "hasAttribute": 0,
+          "status": null,
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": null,
+          "attributeInstanceList": null,
+          "attributeOfferList": null
+        },
+        {
+          "entityComponentId": null,
+          "mainEntityComponentId": null,
+          "componentCode": "MV_SLP",
+          "componentDescription": "LINEA PORTADA",
+          "minRequired": 0,
+          "maxRequired": 1,
+          "isMandatory": "0",
+          "isFatherMandatory": "0",
+          "visible": "1",
+          "isLeaf": 1,
+          "hasAdditionalData": 1,
+          "hasAttribute": 0,
+          "status": null,
+          "tariff": null,
+          "tariffCurrency": null,
+          "additionalDataInstanceList": null,
+          "additionalDataOfferList": [
+            {
+              "dataType": "OPERATOR",
+              "dataTypeDescription": "OPERADOR",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "domainData": null,
+              "domainDataList": null
+            }
+          ],
+          "attributeInstanceList": null,
+          "attributeOfferList": null
+        }
+      ]
+    }
+  }
+}
